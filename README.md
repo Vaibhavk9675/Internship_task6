@@ -17,21 +17,25 @@ The site showcases personal information, projects, education, and includes a **c
 ---
 
 ##  Project Structure
-project/
+
+```bash
+portfolio-flask/
 │
-├── static/
-│ ├── style.css # Website styling
-│ ├── bg.png # Background image
-│ └── project1-screenshot.png # Example project image
+├── static/                      # Static files (CSS, images, etc.)
+│   ├── style.css                 # Website styles
+│   ├── bg.png                    # Background image
+│   └── project1-screenshot.png   # Example project screenshot
 │
-├── templates/
-│ ├── layout.html # Base layout with navbar & footer
-│ ├── index.html # Home page content
-│ └── contact.html # Contact page content
+├── templates/                    # HTML templates
+│   ├── layout.html                # Base layout with navbar & footer
+│   ├── index.html                 # Homepage
+│   └── contact.html               # Contact page
 │
-├── app.py # Flask application
-├── contacts.txt # Stores form submissions
-└── README.md # Project documentation
+├── app.py                         # Flask application
+├── contacts.txt                   # Saved contact form submissions
+├── requirements.txt               # Python dependencies
+└── README.md                      # Project documentation
+
 
 
 ---
