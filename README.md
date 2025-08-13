@@ -5,7 +5,7 @@ The site showcases personal information, projects, education, and includes a **c
 
 ---
 
-## 🚀 Features
+##  Features
 - Responsive design for desktop and mobile.
 - Navigation bar with smooth scrolling to sections.
 - About, Education, and Projects sections.
@@ -16,7 +16,7 @@ The site showcases personal information, projects, education, and includes a **c
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 project/
 │
 ├── static/
