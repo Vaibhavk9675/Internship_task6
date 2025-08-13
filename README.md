@@ -6,13 +6,12 @@ The site showcases personal information, projects, education, and includes a **c
 ---
 
 ##  Features
-- Responsive design for desktop and mobile.
-- Navigation bar with smooth scrolling to sections.
-- About, Education, and Projects sections.
-- Contact form with:
-  - Name, Email, Phone Number, and Message fields.
-  - Data saved to a text file on the server.
-- Modern gradient-based theme.
+-Responsive design with a modern gradient theme.
+-Navigation menu with smooth scrolling for sections.
+-Projects section to showcase your work.
+-Education section with styled cards.
+-Contact form that stores form data in a text file.
+-Resume page with a print-friendly view.
 
 ---
 
@@ -35,13 +34,12 @@ portfolio-flask/
 ├── contacts.txt                   # Saved contact form submissions
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Project documentation
-
+```bash
 
 
 ---
 
 ##  Requirements
-```bash
 - Python 3.7+
 - Flask
 
