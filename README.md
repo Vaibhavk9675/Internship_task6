@@ -34,7 +34,7 @@ portfolio-flask/
 ├── contacts.txt                   # Saved contact form submissions
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Project documentation
-```bash
+```
 
 
 ---
