@@ -6,12 +6,12 @@ The site showcases personal information, projects, education, and includes a **c
 ---
 
 ##  Features
--Responsive design with a modern gradient theme.
--Navigation menu with smooth scrolling for sections.
--Projects section to showcase your work.
--Education section with styled cards.
--Contact form that stores form data in a text file.
--Resume page with a print-friendly view.
+- Responsive design with a modern gradient theme.
+- Navigation menu with smooth scrolling for sections.
+- Projects section to showcase your work.
+- Education section with styled cards.
+- Contact form that stores form data in a text file.
+- Resume page with a print-friendly view.
 
 ---
 
