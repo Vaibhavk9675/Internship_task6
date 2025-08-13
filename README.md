@@ -31,7 +31,7 @@ portfolio-flask/
 │   ├── resume.html                # Resume page
 │   └── contact.html               # Contact page
 │
-├── app.py                       # Flask application
+├── main.py                       # Flask application
 ├── contacts.txt                 # Saved contact form submissions
 └── README.md                    # Project documentation
 ```
