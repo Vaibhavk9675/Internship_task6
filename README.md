@@ -21,19 +21,19 @@ The site showcases personal information, projects, education, and includes a **c
 portfolio-flask/
 │
 ├── static/                      # Static files (CSS, images, etc.)
-│   ├── style.css                 # Website styles
-│   ├── bg.png                    # Background image
-│   └── project1-screenshot.png   # Example project screenshot
+│   ├── style.css                  # Website styles
+│   ├── bg.png                     # Background image
+│   └── project1-screenshot.png    # Example project screenshot
 │
-├── templates/                    # HTML templates
+├── templates/                   # HTML templates
 │   ├── layout.html                # Base layout with navbar & footer
 │   ├── index.html                 # Homepage
+│   ├── resume.html                # Resume page
 │   └── contact.html               # Contact page
 │
-├── app.py                         # Flask application
-├── contacts.txt                   # Saved contact form submissions
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
+├── app.py                       # Flask application
+├── contacts.txt                 # Saved contact form submissions
+└── README.md                    # Project documentation
 ```
 
 
