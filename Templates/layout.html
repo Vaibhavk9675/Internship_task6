@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1><a href="/">My Portfolio</a></h1>
+        <div class="menu-toggle">&#9776;</div>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('home') }}#about">About</a></li>
+            <li><a href="{{ url_for('home') }}#education">Education</a></li>
+            <li><a href="{{ url_for('home') }}#projects">Projects</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        </ul>
+    </nav>
+
+{% block body %} {% endblock %}
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Vaibhav Kumar. All rights reserved.</p>
+    </footer>
+
+        <script>
+        // Mobile menu toggle
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector("nav ul");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+
+        document.addEventListener('click', (event) => {
+        const isClickInsideMenu = navLinks.contains(event.target);
+        const isClickOnToggle = menuToggle.contains(event.target);
+
+        if (!isClickInsideMenu && !isClickOnToggle) {
+            navLinks.classList.remove("active");
+        }
+});
+    </script>
+</body>
+</html>
