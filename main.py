@@ -11,6 +11,11 @@ def home():
 def contact():
     return render_template('contact.html')
 
+@app.route('/resume')
+def resume():
+    return render_template('resume.html')
+
+
 @app.route('/submit_contact', methods=['POST'])
 def submit_contact():
     name = request.form['name']
