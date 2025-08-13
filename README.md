@@ -37,11 +37,8 @@ project/
 ---
 
 ##  Requirements
+```bash
 - Python 3.7+
 - Flask
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
 
 
